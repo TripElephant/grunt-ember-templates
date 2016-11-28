@@ -131,7 +131,7 @@ compilation time during development. **Don't disable this option for production 
 ##### preprocess
 
 Type: `function`
-Arguments: `source`
+Arguments: `source`, `file`
 
 This option accepts a function which can be used to preprocess the raw contents
 of the source read from the template file.
